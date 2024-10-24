@@ -22,17 +22,7 @@ This project creates a simple "Fortune Teller" application using **AWS Lambda** 
 ### <h3 style="font-size: 24px;">Step 2: Write the Fortune-Telling Code</h3>
 1. In the **Function code** section, you'll see an editor. Replace any existing code with the following:
 
-```python
-import json
-import random
 
-def lambda_handler(event, context):
-    responses = ["yes", "no", "maybe"]
-    answer = random.choice(responses)
-    return {
-        'statusCode': 200,
-        'body': answer
-    }
 
 
 ## Click on Deploy to save the changes.
@@ -43,11 +33,13 @@ Choose HTTP API.
 Click Build.
 API name: Enter FortuneTeller.
 Click on Next.
-<h3 style="font-size: 24px;">Step 4: Define the Integration</h3>
+
+## <h3 style="font-size: 24px;">Step 4: Define the Integration</h3>
 Choose Add integration.
 Select Lambda and choose the Lambda function you created (e.g., FortuneTeller).
 Click on Next.
-<h3 style="font-size: 24px;">Step 5: Create the Route</h3>
+
+## <h3 style="font-size: 24px;">Step 5: Create the Route</h3>
 For the resource path, enter /FortuneTeller.
 For Method, select GET.
 Click on Next.
