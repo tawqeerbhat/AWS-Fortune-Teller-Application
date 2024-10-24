@@ -27,12 +27,12 @@ This project creates a simple "Fortune Teller" application using **AWS Lambda** 
  Click on Deploy to save the changes.
  
 ## <h3 style="font-size: 24px;">Step 3: Set Up an API Gateway</h3>
-1.Navigate to the API Gateway service in the AWS console.
-2.Click on Create API.
-3.Choose HTTP API.
-4.Click Build.
-5.API name: Enter FortuneTeller.
-6.Click on Next.
+1. Navigate to the API Gateway service in the AWS console.
+2. Click on Create API.
+3. Choose HTTP API.
+4. Click Build.
+5. API name: Enter FortuneTeller.
+6. Click on Next.
 
 ## <h3 style="font-size: 24px;">Step 4: Define the Integration</h3>
 1.Choose Add Integration.
