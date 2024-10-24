@@ -34,7 +34,8 @@ def lambda_handler(event, context):
         'body': answer
     }
 
-Click on Deploy to save the changes.
+
+## Click on Deploy to save the changes.
 <h3 style="font-size: 24px;">Step 3: Set Up an API Gateway</h3>
 Navigate to the API Gateway service in the AWS console.
 Click on Create API.
@@ -62,4 +63,4 @@ After deployment, copy the Invoke URL provided (it should look something like ht
 In your web browser or Postman, append /FortuneTeller to the Invoke URL:
 https://<your-api-id>.execute-api.us-east-1.amazonaws.com/FortuneTeller
 Press Enter to send the request. You should receive a response with "yes," "no," or "maybe."
-<h3 style="font-size: 24px; text-align: center;">And that's it! 🎉 You've successfully built your Fortune Teller application!</h3> ```
+<h3 style="font-size: 24px; text-align: center;">And that's it! 🎉 You've successfully built your Fortune Teller application!</h3> ```##
