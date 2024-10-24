@@ -1,1 +1,1 @@
-AWS Fortune Teller Application
+AWS Fortune Teller Application.
